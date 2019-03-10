@@ -1,0 +1,1 @@
+<template name="27b85ea4"><view id="app" class="_view 27b85ea4"><button bindtap="handleProxy" data-eventid="{{'27b85ea4-0'}}" data-comkey="{{$k}}" class="_button 27b85ea4">分包跳分包</button></view></template>

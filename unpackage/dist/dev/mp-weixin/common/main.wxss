@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+
+@font-face {
+  font-family: 'font_family';
+  /* project id 811760 */
+  src: url('//at.alicdn.com/t/font_811760_c3l6pwp6un7.eot');
+  src: url('//at.alicdn.com/t/font_811760_c3l6pwp6un7.eot?#iefix') format('embedded-opentype'), url('//at.alicdn.com/t/font_811760_c3l6pwp6un7.woff') format('woff'), url('//at.alicdn.com/t/font_811760_c3l6pwp6un7.ttf') format('truetype'), url('//at.alicdn.com/t/font_811760_c3l6pwp6un7.svg#font_family') format('svg');
+}
+.icon {
+  font-family: font_family;
+  margin-left: 20rpx;
+  font-size: 20rpx;
+}
+

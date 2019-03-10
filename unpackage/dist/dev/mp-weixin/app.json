@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my"
+  ],
+  "subPackages": [
+    {
+      "root": "page1/",
+      "pages": [
+        "home"
+      ]
+    },
+    {
+      "root": "page2",
+      "pages": [
+        "fb2"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "模板",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#AAAAAA",
+    "selectedColor": "#6B7AF8",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/card_un.png",
+        "selectedIconPath": "static/images/card.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/images/wode_un.png",
+        "selectedIconPath": "static/images/wode.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

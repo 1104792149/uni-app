@@ -1,0 +1,52 @@
+//颜色
+@orange:#FFBB45;
+@tabActive:#6B7AF8;//tab活动状态颜色
+@tabDefaule:#CCCCCC;//tab默认颜色
+@gray:#AAAAAA;
+@red:#FF5858;//爱心图标颜色
+//字体颜色
+@title:#333333;//标题的颜色
+@subTitle:rgb(199, 167, 167);//小标题的浅灰色
+@logoNote:#999999;//提示颜色
+//背景颜色
+@grayBg:#F5F5F5; //背景色米白
+@bluePuple:#8390FF;//浅蓝紫色，tab为深蓝紫色
+////////////字体
+@fsPageTitle:36upx; //头部标题
+@fsContentTitle:32upx; //列表标题
+@fsSubTitle:28upx;//列表副标题
+@fsNum:24upx;//列表数字
+
+//less公共类
+.fl{float:left;}
+.fr{float:right;}
+//弹性布局
+.flex(@justCon:space-around;@alignIt:center;){
+    width:100%;display: flex;justify-content:@justCon;align-items:@alignIt;
+}
+//半圆
+.borderRadius(@w:30upx;@h:@w;){
+    width:@w;height: @h;background:@red;border:1upx solid @red;border-radius: 50%;
+}
+//按钮
+.buttonRadius(@w:620upx;@h:88upx;@bg:@tabActive;){
+    width:@w;height:@h;background:@bg;border-radius:@h/2;
+}
+.top:before {
+  content: "";
+  display: table;
+}
+//单行文本，超出部分显示省略号
+.ellipsis{overflow: hidden;text-overflow:ellipsis;white-space: nowrap;}
+
+// 去掉滚动条
+::-webkit-scrollbar{width:0;height:0}
+
+//两行文本，超出显示省略号
+.Tellipsis{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}

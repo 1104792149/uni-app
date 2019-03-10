@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///D:/uni-app/uni-app-itme/main.js"],"names":["Page","App"],"mappings":";;;;;;;;;;AAAA;AACA;AACI,yM;AACAA,IAAI,CAAC,+BAAYC,aAAZ,CAAD,CAAJ,C","file":"page1/home/home.js","sourcesContent":["import 'uni-pages';\nimport pageFactory from 'mpvue-page-factory'\n    import App from './page1/home/home.vue'\n    Page(pageFactory(App))"],"sourceRoot":""}

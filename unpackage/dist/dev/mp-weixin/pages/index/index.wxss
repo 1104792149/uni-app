@@ -1,0 +1,46 @@
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.top:before {
+  content: "";
+  display: table;
+}
+.ellipsis {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.Tellipsis {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.content {
+  text-align: center;
+  height: 400rpx;
+}
+.logo {
+  height: 200rpx;
+  width: 200rpx;
+  margin-top: 200rpx;
+}
+.title {
+  font-size: 36rpx;
+  color: #8f8f94;
+  width: 620rpx;
+  height: 88rpx;
+  background: #6B7AF8;
+  border-radius: 44rpx;
+}
+
